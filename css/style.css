@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: content-box;
 }
+
+.debug{
+    border: 2px dotted rgb(27, 64, 145);
+}
+
+
+
+.centered{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(73, 133, 183);
+}
+
+#navbar{
+    width: 100%;
+    height: 70px;
+
+    background-color: rgb(32, 57, 142);
+}
+
+#navbar ul{
+    list-style-type: none;
+}
+
