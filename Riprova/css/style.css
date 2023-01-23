@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.debug *{
+/* .debug *{
     border: 1px solid purple;
-}
+} */
 
 
 .centered{
@@ -31,7 +31,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: rgb(33, 104, 235);
+    background-color: rgb(98, 134, 199);
 
 }
 
@@ -100,7 +100,7 @@ header{
 #paragraph{
     width:740px;
     height: 100px;
-    background-color: rgb(53, 147, 194);
+    background-color: rgb(22, 57, 75);
 }
 
 
@@ -160,11 +160,19 @@ header{
 /* sezione finale */
 
 #columnedarea{
+    height: 1170px;
     background-color:  rgb(62, 122, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .lastsection{
+
+    height: 1000px;
+
     background-color: deepskyblue;
 
     display: flex;
@@ -192,3 +200,80 @@ header{
     height: 180px;
     background-color: azure;
 }
+
+/* footer */
+
+footer{
+    background-color: cornflowerblue;
+}
+
+
+.info-column{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center; 
+
+    background-color: lightblue;
+}
+
+#lists{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#info{
+    width: 250px;
+    height: 380px;
+
+    background-color: darkseagreen;
+}
+
+#lists ul{
+    width: 140px;
+    height: 380px;
+    list-style-type: none;
+    background-color: lightseagreen;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#lists li{
+    width: 60px;
+    height: 30px;
+
+    background-color: aquamarine;
+
+}
+
+/* footer navbar */
+
+.footernavbar{
+    background-color: aqua;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerlogo{
+    width: 150px;
+    height: 70px;
+
+    background-color: cadetblue;
+}
+
+#footerbtn{
+    width: 100px;
+    height: 70px;
+
+    background-color: cadetblue;
+}
+
