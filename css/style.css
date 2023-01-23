@@ -4,11 +4,6 @@
     box-sizing: content-box;
 }
 
-.debug{
-    border: 2px dotted rgb(27, 64, 145);
-}
-
-
 
 .centered{
     max-width: 1000px;
@@ -17,14 +12,17 @@
 }
 
 
-nav{
-    display: flex;
-    flex-direction: row;
-
+header{
+    height: 430px;
     background-color: rgb(73, 133, 183);
 }
 
 #navbar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     width: 100%;
     height: 70px;
 
@@ -33,5 +31,38 @@ nav{
 
 #navbar ul{
     list-style-type: none;
+}
+
+.logo{
+    width: 100px;
+    height: 70px;
+
+    background-color: rgb(105, 188, 178);
+}
+
+.link{
+    display: flex;
+    align-items: stretch;
+}
+
+.link ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.link li{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(105, 188, 178);
+}
+
+.signin{
+    width: 100px;
+    height: 70px;
+
+    background-color: rgb(105, 188, 178);
 }
 
