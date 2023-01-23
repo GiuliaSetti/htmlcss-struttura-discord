@@ -4,6 +4,12 @@
     box-sizing: content-box;
 }
 
+
+body{
+    background-color: lightblue;
+}
+
+
 /* nav */
 .centered{
     max-width: 1000px;
@@ -84,7 +90,7 @@ header{
     background-color: rgb(101, 132, 159);
 }
 
-.title h1{
+.title{
     width: 680px;
     height: 60px;
 
@@ -114,16 +120,71 @@ header{
     justify-items: center;
     
     height: 640px;
-    background-color: aquamarine;
+    border: 1px black solid;
 }
 
 .mainarea{
+    width: 100%;
+    height: 550px;
+
+    background-color: rgb(12, 157, 194);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mainarea .image{
+    width: 580px;
+    height: 430px;
+    background-color: blueviolet;
+}
+
+aside{
+    width: 360px;
+    height: 430px;
+    background-color: rgb(143, 85, 176);
+}
+
+/* sezione finale */
+
+.bottom-section{
+    border: 1px solid black;   
+}
+
+.bottomarea{  
+    height: 1160px;
+    
+    background-color:rgb(12, 157, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bottom-title{
+    
+    height: 190px;
+    width: 100%;
+    
+    background-color: white;
+}
+
+.bottom-image{
 
     width: 100%;
-    height: 500px;
+    height: 600px;
 
-    background-color: yellow;
+    background-color: blueviolet;
+}
 
-    /* display: flex; */
+.main-btn{
+    
+    width: 100%;
+    height: 210px;
 
+    background-color: white;
 }
