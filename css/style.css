@@ -4,7 +4,7 @@
     box-sizing: content-box;
 }
 
-
+/* nav */
 .centered{
     max-width: 1000px;
     margin-left: auto;
@@ -13,7 +13,7 @@
 
 
 header{
-    height: 430px;
+    height: 500px;
     background-color: rgb(73, 133, 183);
 }
 
@@ -28,10 +28,12 @@ header{
 
     background-color: rgb(32, 57, 142);
 }
-
+/* eliminazione punteggiatura */
 #navbar ul{
     list-style-type: none;
 }
+
+/* logo */
 
 .logo{
     width: 100px;
@@ -39,6 +41,8 @@ header{
 
     background-color: rgb(105, 188, 178);
 }
+
+/* link sistemazione */
 
 .link{
     display: flex;
@@ -59,6 +63,8 @@ header{
     background-color: rgb(105, 188, 178);
 }
 
+/* sign in colorazione */
+
 .signin{
     width: 100px;
     height: 70px;
@@ -66,3 +72,34 @@ header{
     background-color: rgb(105, 188, 178);
 }
 
+/* header */
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 430px;
+    background-color: rgb(101, 132, 159);
+}
+
+.title h1{
+    width: 680px;
+    height: 60px;
+
+    background-color: white;
+}
+
+.center-area p{
+    width: 680px;
+    height: 170px;
+
+    background-color: aquamarine;
+}
+
+.header-btns{
+    width: 680px;
+    height: 60px;
+    background-color: white;
+}
