@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug *{
+    border: 1px solid purple;
+}
+
+
+.centered{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+
+header{   
+    height: 495px;
+}
+
+
+/* nav con 3 div */
+.navbar{
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+
+#link{
+    display: flex;
+    align-items: stretch;
+}
+
+#link ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+/* logo */
+#logo{  
+    width: 150px;
+    background-color: darkorchid;
+}
+
+
+#link li{  
+    height: 30px;
+    width: 60px;
+    background-color: darkorchid;
+}
+
+
+/* bottone */
+
+#signin{
+    width: 100px;
+    background-color: darkorchid;
+}
