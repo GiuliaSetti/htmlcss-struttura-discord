@@ -204,7 +204,12 @@ header{
 /* footer */
 
 footer{
+    height: 540px;
     background-color: cornflowerblue;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
@@ -256,7 +261,7 @@ footer{
 
 .footernavbar{
     background-color: aqua;
-    height: 90px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
