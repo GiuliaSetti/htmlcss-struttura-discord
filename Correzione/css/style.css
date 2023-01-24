@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/* .debug *{
+.debug *{
     border: 1px solid purple;
-} */
+}
 
 
 .centered{
@@ -17,8 +17,7 @@
 
 /* navbar */
 
-header{   
-    height: 495px;
+header{    
     background-color:cornflowerblue;
 }
 
@@ -49,6 +48,8 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    /* row wrap */
     gap: 30px;
 }
 
@@ -77,22 +78,32 @@ header{
 
 
 .intestazione{
-    background-color: lightblue;
     
-    height: 425px;
+    min-height: 425px;
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 40px 0;
+}
+
+
+#header-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+
 }
 
 
 /* titolo */
-#title{
-    height: 80px;
-    width:740px;
-    background-color: dodgerblue;
+#header-inner h1{
+    margin-bottom: 0.4em;
 }
 
 /* paragrafo */
@@ -106,17 +117,15 @@ header{
 
 /* bottoni */
 #header-btns{
-    width:740px;
-    height: 60px;
     background-color: dodgerblue;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-#btnone, #btntwo{
+.header-btns button{
     width: 200px;
-    height: 60px;
+    height: 2.5em;
     background-color: aquamarine;
 }
 
