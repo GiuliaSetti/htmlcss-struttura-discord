@@ -156,82 +156,82 @@ main section{
 
 .section-text{
     height: 444px;
-    width: 400px;
+    max-width: 60%;
+    min-width: 30%;
+
+    flex-grow: 1;
+
     background-color: blueviolet;
 }
 
 
 /* sezione finale */
 
-#columnedarea{
-    height: 1170px;
-    background-color:  rgb(62, 122, 211);
+
+.content{
+
+    min-height: 1000px;
+
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+    padding: 30px 0;
 }
 
-
-.lastsection{
-
-    height: 1000px;
-
-    background-color: deepskyblue;
-
+.content #inner-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 1.5em;
+
+
+    width: 100%;
+    max-width: 900px;
+
+    text-align: center;
+}
+
+#inner-content h2, img, h3{
+    margin-bottom: 0.5em;
+}
+
+.columnedbtn{
+    display: flex;
     justify-content: center;
-    gap: 20px;
-
-}
-#columnedtitle{
-    background-color: azure;
-    width: 980px;
-    height: 180px;
+    align-items: center;
 }
 
-#columnedimg{
-    background-color: aquamarine;
-    width: 980px;
-    height: 560px;
-}
-
-
-#columnedbtn{
-    width: 980px;
-    height: 180px;
+#btnthree{
+    width: 150px;
+    height: 60px;
     background-color: azure;
 }
 
 /* footer */
 
 footer{
-    height: 540px;
     background-color: cornflowerblue;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
-
-.info-column{
-    height: 400px;
+.footer-inner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
-    align-items: center; 
-
-    background-color: lightblue;
-}
-
-#lists{
-    display: flex;
-    flex-direction: row; 
     justify-content: space-between;
-    gap: 40px;
+
+    gap: 10px;
+
+    padding-top: 2em;
+}
+
+
+#footer-left{
+    width: 300px;
+    height: 400px;
+}
+
+#footer-left .info{
+    width: 100%;
+    height: 200px;
 }
 
 #info{
@@ -240,46 +240,46 @@ footer{
 
     background-color: darkseagreen;
 }
-
-#lists ul{
-    width: 140px;
-    height: 380px;
-    list-style-type: none;
-    background-color: lightseagreen;
+#footer-right{
+    flex-grow: 1;
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+
+    max-width: 700px;
 }
 
-#lists li{
-    width: 60px;
-    height: 30px;
+.footer-lists{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
-    background-color: aquamarine;
-
+.footer-lists ul{
+    list-style-type: none;
+    background-color: lightseagreen;
 }
 
 /* footer navbar */
 
-.footernavbar{
+.bottombar{
     background-color: aqua;
     height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    padding: 2em 0;
 }
 
-#footerlogo{
+#footer-logo{
     width: 150px;
     height: 70px;
 
     background-color: cadetblue;
 }
 
-#footerbtn{
+#footer-btn{
     width: 100px;
     height: 70px;
 
