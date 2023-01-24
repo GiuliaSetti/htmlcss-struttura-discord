@@ -119,8 +119,11 @@ header{
 #header-btns{
     background-color: dodgerblue;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 10px;
+    
+    
 }
 
 .header-btns button{
@@ -131,27 +134,19 @@ header{
 
 /* main */
 
-.section{
-    height: 630px;
+main section{
+    padding: 3em 0;
+}
+
+.section-inner{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
 
     background-color: rgb(62, 122, 211);
 }
 
-.mainarea{
-    width: 1070px;
-    height: 500px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: lightblue;
-}
 
 .section-img{
     width: 550px;
@@ -159,7 +154,7 @@ header{
     background-color: violet;
 }
 
-.img-text{
+.section-text{
     height: 444px;
     width: 400px;
     background-color: blueviolet;
