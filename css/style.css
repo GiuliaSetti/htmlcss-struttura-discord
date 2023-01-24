@@ -1,235 +1,286 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
+/* .debug *{
+    border: 1px solid purple;
+} */
 
-body{
-    background-color: lightblue;
-}
 
-
-/* nav */
 .centered{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* navbar */
 
-header{
-    height: 500px;
-    background-color: rgb(73, 133, 183);
+header{   
+    height: 495px;
+    background-color:cornflowerblue;
 }
 
-#navbar{
+
+/* nav con 3 div */
+.navbar{
+    height: 70px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    width: 100%;
-    height: 70px;
+    background-color: rgb(98, 134, 199);
 
-    background-color: rgb(32, 57, 142);
 }
-/* eliminazione punteggiatura */
-#navbar ul{
+
+.navbar ul{
     list-style-type: none;
 }
 
-/* logo */
 
-.logo{
-    width: 100px;
-    height: 70px;
-
-    background-color: rgb(105, 188, 178);
-}
-
-/* link sistemazione */
-
-.link{
+#link{
     display: flex;
     align-items: stretch;
 }
 
-.link ul{
+#link ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+
+    /* row wrap */
     gap: 30px;
 }
 
-.link li{
+/* logo */
+#logo{  
+    width: 150px;
+    background-color:darkcyan;
+}
+
+
+#link li{  
     height: 30px;
     width: 60px;
-    background-color: rgb(105, 188, 178);
+    background-color:darkcyan;
 }
 
-/* sign in colorazione */
 
-.signin, .signup{
+/* bottone */
+
+#signin{
     width: 100px;
-    height: 70px;
-
-    background-color: rgb(105, 188, 178);
+    background-color:darkcyan;
 }
 
-/* header */
+/* header - titoli */
 
-.header{
+
+.intestazione{
+    background-color: lightblue;
+    
+    height: 425px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    height: 430px;
-    background-color: rgb(101, 132, 159);
 }
 
-.title{
-    width: 680px;
+
+/* titolo */
+#title{
+    height: 80px;
+    width:740px;
+    background-color: dodgerblue;
+}
+
+/* paragrafo */
+
+#paragraph{
+    width:740px;
+    height: 100px;
+    background-color: rgb(22, 57, 75);
+}
+
+
+/* bottoni */
+#header-btns{
+    width:740px;
     height: 60px;
-
-    background-color: white;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.center-area p{
-    width: 680px;
-    height: 170px;
-
+#btnone, #btntwo{
+    width: 200px;
+    height: 60px;
     background-color: aquamarine;
-}
-
-.header-btns{
-    width: 680px;
-    height: 60px;
-    background-color: white;
 }
 
 /* main */
 
-
 .section{
+    height: 630px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    
-    height: 640px;
-    border: 1px black solid;
+
+    background-color: rgb(62, 122, 211);
 }
 
 .mainarea{
-    width: 100%;
-    height: 550px;
-
-    background-color: rgb(12, 157, 194);
+    width: 1070px;
+    height: 500px;
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-
+    gap: 20px;
+    background-color: lightblue;
 }
 
-.mainarea .image{
-    width: 580px;
-    height: 430px;
+.section-img{
+    width: 550px;
+    height: 444px;
+    background-color: violet;
+}
+
+.img-text{
+    height: 444px;
+    width: 400px;
     background-color: blueviolet;
 }
 
-aside{
-    width: 360px;
-    height: 430px;
-    background-color: rgb(143, 85, 176);
-}
 
 /* sezione finale */
 
-.bottom-section{
-    border: 1px solid black;   
+#columnedarea{
+    height: 1170px;
+    background-color:  rgb(62, 122, 211);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.bottomarea{  
-    height: 1160px;
-    
-    background-color:rgb(12, 157, 194);
+
+.lastsection{
+
+    height: 1000px;
+
+    background-color: deepskyblue;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
+
+}
+#columnedtitle{
+    background-color: azure;
+    width: 980px;
+    height: 180px;
 }
 
-.bottom-title{
-    
-    height: 190px;
-    width: 100%;
-    
-    background-color: white;
+#columnedimg{
+    background-color: aquamarine;
+    width: 980px;
+    height: 560px;
 }
 
-.bottom-image{
 
-    width: 100%;
-    height: 600px;
-
-    background-color: blueviolet;
-}
-
-.main-btn{
-    
-    width: 100%;
-    height: 210px;
-
-    background-color: white;
+#columnedbtn{
+    width: 980px;
+    height: 180px;
+    background-color: azure;
 }
 
 /* footer */
 
-
-.columns{
-    background-color: rgb(20, 126, 219);
-    height: 400px;
-    display: flex;
-    flex-direction: row;;
-
-}
-
-.footer-list{
+footer{
+    height: 540px;
+    background-color: cornflowerblue;
+    
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+
+.info-column{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center; 
+
+    background-color: lightblue;
+}
+
+#lists{
+    display: flex;
+    flex-direction: row; 
     justify-content: space-between;
+    gap: 40px;
 }
 
-#columned-info{
-    width: 400px;
-    height: 400px;
-    background-color: aqua;
+#info{
+    width: 250px;
+    height: 380px;
+
+    background-color: darkseagreen;
 }
 
-#bottomlist{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-#bottomlist ul{
-    width: 120px;
-    height: 400px;
-    border: 1px dotted blue;
+#lists ul{
+    width: 140px;
+    height: 380px;
     list-style-type: none;
+    background-color: lightseagreen;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-/* navabar finale */
+#lists li{
+    width: 60px;
+    height: 30px;
 
-.navbar{
-    background-color:  rgb(32, 57, 142);
+    background-color: aquamarine;
+
+}
+
+/* footer navbar */
+
+.footernavbar{
+    background-color: aqua;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
+
+#footerlogo{
+    width: 150px;
+    height: 70px;
+
+    background-color: cadetblue;
+}
+
+#footerbtn{
+    width: 100px;
+    height: 70px;
+
+    background-color: cadetblue;
+}
+
